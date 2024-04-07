@@ -1,0 +1,10 @@
+{
+	"required": true,
+	"package": "net.birb_feather.other_mod.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
