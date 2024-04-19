@@ -1,12 +1,12 @@
 package net.birb_feather.other_mod;
 
+import net.birb_feather.other_mod.enums.OtherArmorMaterials;
+import net.birb_feather.other_mod.enums.OtherToolsMaterials;
 import net.distantdig.ezLib.EzLib;
 import net.distantdig.ezLib.block.EzBlockSets;
 import net.distantdig.ezLib.block.EzBlocksBuilder;
 import net.distantdig.ezLib.effect.EzEffect;
 import net.distantdig.ezLib.effect.EzEffects;
-import net.distantdig.ezLib.enums.EzArmorMaterials;
-import net.distantdig.ezLib.enums.EzToolsMaterials;
 import net.distantdig.ezLib.item.EzItemGroups;
 import net.distantdig.ezLib.item.EzItems;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -49,14 +49,14 @@ public class OtherMod extends EzLib {
         INGOT_FIVE = EzItems.registerItem("ingot_five", Item::new, new FabricItemSettings());
 
         // Tool Sets
-        EzItems.ToolSet IRON_TOOL_SET_2 = EzItems.registerToolSet("iron2", EzToolsMaterials.TEST_MATERIAL1, 3, 1.6f, new FabricItemSettings());
-        EzItems.ToolSet IRON_TOOL_SET_3 = EzItems.registerToolSet("iron3", EzToolsMaterials.TEST_MATERIAL2, 3, 1.6f, new FabricItemSettings(), IRON_TOOL_SET_2);
-        EzItems.ToolSet IRON_TOOL_SET_4 = EzItems.registerToolSet("iron4", EzToolsMaterials.TEST_MATERIAL3, 3, 1.6f, new FabricItemSettings(), IRON_TOOL_SET_3);
+        EzItems.ToolSet IRON_TOOL_SET_2 = EzItems.registerToolSet("iron2", OtherToolsMaterials.TEST_MATERIAL1, 3, 1.6f, new FabricItemSettings());
+        EzItems.ToolSet IRON_TOOL_SET_3 = EzItems.registerToolSet("iron3", OtherToolsMaterials.TEST_MATERIAL2, 3, 1.6f, new FabricItemSettings(), IRON_TOOL_SET_2);
+        EzItems.ToolSet IRON_TOOL_SET_4 = EzItems.registerToolSet("iron4", OtherToolsMaterials.TEST_MATERIAL3, 3, 1.6f, new FabricItemSettings(), IRON_TOOL_SET_3);
 
         // Armor Sets
-        EzItems.ArmorSet IRON_ARMOR_SET_2 = EzItems.registerArmorSet("iron2", EzArmorMaterials.TEST_MATERIAL1, new FabricItemSettings());
-        EzItems.ArmorSet IRON_ARMOR_SET_3 = EzItems.registerArmorSet("iron3", EzArmorMaterials.TEST_MATERIAL1, new FabricItemSettings(), IRON_ARMOR_SET_2);
-        EzItems.ArmorSet IRON_ARMOR_SET_4 = EzItems.registerArmorSet("iron4", EzArmorMaterials.TEST_MATERIAL1, new FabricItemSettings(), IRON_ARMOR_SET_3);
+        EzItems.ArmorSet IRON_ARMOR_SET_2 = EzItems.registerArmorSet("iron2", OtherArmorMaterials.TEST_MATERIAL1, new FabricItemSettings());
+        EzItems.ArmorSet IRON_ARMOR_SET_3 = EzItems.registerArmorSet("iron3", OtherArmorMaterials.TEST_MATERIAL1, new FabricItemSettings(), IRON_ARMOR_SET_2);
+        EzItems.ArmorSet IRON_ARMOR_SET_4 = EzItems.registerArmorSet("iron4", OtherArmorMaterials.TEST_MATERIAL1, new FabricItemSettings(), IRON_ARMOR_SET_3);
 
         // Food Items
         NOT_STEAK1 = EzItems.registerFoodItem("not_steak1", new FoodProperties.Builder().nutrition(8).build(), new FabricItemSettings());
