@@ -34,7 +34,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 //	implementation files("run/mods/ez_lib-0.1-1.20.1.jar")
-	modImplementation 'com.github.Birbfeather-Studios:ez_lib:feature~jitpack-SNAPSHOT'
+	modImplementation "com.github.Birbfeather-Studios:ez_lib:v${ez_lib_version}"
 }
 
 processResources {
