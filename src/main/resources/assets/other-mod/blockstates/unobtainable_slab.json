@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "example_mod:block/unobtainable_slab"
+    },
+    "type=double": {
+      "model": "example_mod:block/unobtainable"
+    },
+    "type=top": {
+      "model": "example_mod:block/unobtainable_slab_top"
+    }
+  }
+}

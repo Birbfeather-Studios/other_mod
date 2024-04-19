@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "example_mod:block/not_coal_ore"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/button",
+        "textures": {
+    "texture": "example_mod:block/mahogany_planks"
+    }
+}
