@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "other-mod",
+	"id": "other_mod",
 	"version": "${version}",
 	"name": "Other Mod",
 	"description": "This is an example mod to demonstrate how to use EzLib! Tell everyone about it!",
@@ -13,7 +13,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/other-mod/icon.png",
+	"icon": "assets/other_mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

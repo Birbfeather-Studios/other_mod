@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "example_mod:block/unobtainable",
-    "side": "example_mod:block/unobtainable",
-    "top": "example_mod:block/unobtainable"
-  }
-}
